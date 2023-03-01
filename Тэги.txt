@@ -1,0 +1,69 @@
+style -
+<body>
+     <h1 style="color: red;">Hello Almaty</h1>
+</body>
+
+hex -
+<body>
+     <h1 style="color: #446eb3;">Hello Almaty</h1>
+</body>
+
+background-color -
+<body>
+     <h1 style="background-color: yellow; color:blue;">Hello Almaty</h1>
+     <h2 style="background-color: red; color:white;">Hi BITLAB</h2>
+</body>
+
+background-image -
+<body>
+     <p style="background-image: url('fon.jpg'); color: white;">
+     Lorem Ipsum - это текст-"рыба", …
+     </p>
+
+height, width -
+<body>
+     <input type="text" style="width: 100px; height: 50px;">
+     <h2 style="width: 200px; height: 200px; background-color: blue; color: white;"> Hello Almaty From BITLAB</h2>
+</body>
+
+font-size -
+<body>
+     This text is very simple
+     <p style="font-size: 24px;">
+     Hello, my dear friend from BITLAB
+     </p>
+     We don't know how to do it!
+</body>
+
+font-family -
+<body>
+     <p>
+     Here normal text!
+     </p>
+     <p style="font-family: Arial;">
+     Hello, this is Arial text in BITLAB
+     </p>
+     <p style="font-family: Courier">
+     We love Coding!
+     </p>
+</body>
+
+font-weight - насыщенность шрифта(жирность)
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
+
+</style>
+<body>
+    <p style="font-weight: 100; font-family: Roboto, sans-serif;">
+    Текст с насыщенностью шрифта: 100
+    </p>
+    <p style="font-weight: 300; font-family: Roboto, sans-serif;">
+    Текст с насыщенностью шрифта: 300
+    </p>
+    <p style="font-weight: 700; font-family: Roboto, sans-serif;">
+    Текст с насыщенностью шрифта: 700
+    </p>
+    <p style="font-weight: 900; font-family: Roboto, sans-serif;">
+    Текст с насыщенностью шрифта: 900
+    </p>
+</body>
