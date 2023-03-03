@@ -1,0 +1,348 @@
+.body {
+    background-color: #e8eaed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.whole_page {}
+
+.top_container {
+    background-color: #4277a5;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 40px;
+
+}
+
+.vk_logo_container {
+    width: 15%;
+    height: 20px;
+    color: white;
+    font-weight: 600;
+    /* background-color: blue; */
+    text-align: right;
+    align-items: center;
+
+}
+
+.search {
+    width: 85%;
+    height: 20px;
+    color: white;
+    /* background-color: rgb(6, 237, 72); */
+    padding-left: 100px;
+}
+
+.main_grey_page {
+    display: flex;
+}
+.first_column{
+    width: 250px;
+    /* background-color: rgb(41, 250, 4); */
+    display: flex;
+    /* background-color: greenyellow; */
+}
+.empty_bar_left{
+    /* width: 150px; */
+    /* background-color: black; */
+}
+.menu_bar {
+    width: 100px;
+    /* background-color: aquamarine; */
+    padding-left: 140px;
+    font-size: 12px;
+    color: #4277a5;
+}
+
+.main_container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.profile_container {
+    width: 240px;
+    height: 320px;
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_profile_container {
+    width: 220px;
+    height: 300px;
+    /* background-color: aqua; */
+    
+}
+
+.avatar {
+}
+
+.my_foto{
+    width: 220px;
+    height: 250px;
+}
+
+.profile_edit {
+    display: flex;
+    /* background-color: #4277a5; */
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_edit_button{
+    width: 220px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #4277a5
+}
+.second_column{
+    width: 250px;
+    /* background-color: aqua; */
+}
+.friends_container {
+    width: 240px;
+    height: 150px;
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_friends_container {
+    width: 220px;
+    height: 130px;
+    /* background-color: rgb(244, 7, 7); */
+}
+
+.top_status_friends_container {
+    font-size: 12px;
+    color: #4277a5;
+    /* background-color: bisque; */
+}
+
+.friends_round_avatar_table {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: brown; */
+}
+.friends_table{
+    font-size: 10px;
+}
+.friends_avatar{
+    width: 40px;
+}
+.third_column{
+    width: 600px;
+    /* background-color: aquamarine; */
+}
+.main_status_bar {
+    width: 600px;
+    height: 280px;
+    background-color: white;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.empty_bar_left{
+    /* width: 10%; */
+    /* background-color: black; */
+}
+
+.top_status_container {
+    width: 100%;
+    height: 80px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+
+.profile_name {
+    font-size: 24px;
+    /* background-color: aqua; */
+    width: 90%;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.connection_status {
+    font-size: 14px;
+    /* background-color: rgb(16, 16, 240); */
+    width: 10%;
+    height: 50px;
+}
+
+.profile_current_status {}
+
+.profile_info_container {}
+
+.profile_table {
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.profile_statistics_container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile_statistics_table {}
+
+
+
+.my_fotos_container {
+    width: 600px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner_my_fotos_container {
+    width: 580px;
+    height: 110px;
+    /* background-color: green; */
+    /* border-radius: 10px; */
+    /* margin-top: 5px; */
+}
+
+.top_fotos_container {
+    font-size: 12px;
+    /* background-color: blue; */
+}
+
+.fotos_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.ribbon_container {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.top_ribbon_container {
+    width: 100%;
+    height: 60px;
+    /* background-color: blue; */
+    display: flex;
+    
+}
+
+.avatar_top_ribbon_container {
+    margin-left: 5px;
+    width: 11%;
+    /* background-color: rgb(234, 192, 9); */
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.name_top_ribbon_container {
+    width: 50%;
+    height: 60px;
+    /* background-color: rgb(234, 95, 9); */
+    align-items: center;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #4277a5;
+}
+
+.date_top_ribbon_container {
+}
+
+.text_ribbon_container {
+    width: 95%;
+    /* background-color: aqua; */
+    font-size: 14px;
+    padding-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.second_column_friends{
+    width: 600px;
+    height: 760px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.top_second_column_friends{
+    width: 90%;
+    height: 30px;
+    /* background-color: green; */
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.search_top_second_column_friends{
+    margin-left: 10px;
+}
+.fr_friends_block{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+}
+.fr_friends_avatar{
+    margin-left: 10px;
+}
+.fr_friends_avatar img{
+    width: 70px;
+}
+
+.fr_friends_info_text{
+    width: 450px;
+    margin-left: 10px;
+}
+.fr_friends_name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #4277a5;
+    margin-top: 10px;
+}
+.fr_friends_edu{
+    font-size: 14px;
+    color: grey;
+    margin-top: 10px;
+}
+.fr_friends_send_message{
+    font-size: 14px;
+    color: #4277a5;
+    margin-top: 10px;
+}
+.fr_friends_menu_button{
+    width: 50px;
+    color:#4277a5;
+    display: flex;
+    align-items: start;
+
+}
+.fr_friends_menu_button_itself{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    
+}

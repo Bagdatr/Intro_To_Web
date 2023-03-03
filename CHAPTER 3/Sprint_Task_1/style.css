@@ -31,7 +31,6 @@
 .head-main-container {
     width: 98%;
     height: 100px;
-    /* background-color: #616ad2; */
     margin: auto;
     padding-bottom: 90px;
     display: flex;
@@ -42,7 +41,6 @@
 .text-main {
     width: 80%;
     font-family: Arial, Helvetica, sans-serif;
-    /* background-color: #66df7c; */
     height: 190px;
     margin: 0 auto;
     display: flex;
@@ -50,12 +48,10 @@
 }
 .text-head {
     width: 100%;
-    /* background-color: #84000f; */
     height: 40px;
 }
 .text-body {
     width: 100%;
-    /* background-color: #c0777f; */
     font-size: 12px;
     height: 150px;
 }
@@ -69,7 +65,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .latest-container {
-    /* background-color: #84000f; */
     display: flex;
     width: 100%;
     height: 220px;
