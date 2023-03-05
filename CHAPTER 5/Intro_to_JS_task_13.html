@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+
+        let prob = true;
+
+        while(prob==true){
+
+            alert("Choose your branch: "+ "\n" + "1 - Science, 2 - Humanitarian subjects, 3 - Art, 4 - Sport:");
+            let branch = prompt();
+            
+            if(branch==1){
+                alert("1 - Math, 2 - Physics:");
+                let subject = prompt();
+                if(subject==1){
+                    alert("You are Financier");
+                }else{
+                    alert("You are Engineer");
+                }
+            }else if(branch==2){
+                alert("1 - History, 2 - Foreign Languages:");
+                let subject = prompt();
+                if(subject==1){
+                    alert("You are Historic or Diplomat");
+                }else{
+                    alert("You are Translator");
+                }
+            }else if(branch==3){
+                alert("1 - Drawing, 2 -Singing:");
+                let subject = prompt();
+                if(subject==1){
+                    alert("You are Painter or Architect");
+                }else{
+                    alert("You are Singer or Tamada");
+                }
+            }else if(branch==4){
+                alert("1 - Team, 2 - Individual:");
+                let subject = prompt();
+                if(subject==1){
+                    alert("You are footballer or Basketball player");
+                }else{
+                    alert("You are boxer or tennis player");
+                }
+            }
+
+            let x = confirm("Do you want to replay?");
+
+            if(x == true) prob = true;
+            else prob = false;
+        }
+
+        alert("Thank you! Good bye!");
+
+        </script>
+    </body>
+</html>

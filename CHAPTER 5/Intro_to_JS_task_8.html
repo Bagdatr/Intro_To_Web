@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+
+        wiskas_price = 120;
+        limit_to_discount = 4000;
+        discount_rate = 0.1;
+        
+        let quantity = prompt("How much wiskas are you going to buy?");
+
+        if((quantity * wiskas_price) > limit_to_discount){
+            alert((quantity * wiskas_price) - ((quantity * wiskas_price) * discount_rate) + " KZT");
+        } else{
+            alert(quantity * wiskas_price + " KZT");
+        }
+
+        </script>
+    </body>
+</html>

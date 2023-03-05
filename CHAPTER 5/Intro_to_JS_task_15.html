@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+
+            let rate = 380;
+            let amountInKzt = parseInt(prompt("How much KZT do you want to exchange?"));         
+            let amountInUsd = amountInKzt / rate;
+            let amountInUsdShort = amountInUsd.toFixed(2);
+            let amountInUsdStr = amountInUsdShort.toString();
+            let result = amountInUsdStr.split('.');
+            let usd = parseInt(result[0]);
+            let cent = parseInt(result[1]);
+            if(cent > 0) alert(`${usd} USD and ${cent} cents`);
+            else alert(`ONLY ${usd} USD`);
+
+        </script>
+    </body>
+</html>

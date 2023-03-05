@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+        
+        let loginCheck = "user";
+        let passwordCheck = "qwerty";
+
+        let userInput = prompt("Please enter your login and password separeted with space");
+        let loginAndPassword = userInput.split(" ");
+        let login = loginAndPassword[0];
+        let password = loginAndPassword[1];
+
+        if(login === loginCheck && password === passwordCheck){
+            alert("Authentication completed");
+        }else{
+            alert("Invalid login or password");
+        }
+
+
+        </script>
+    </body>
+</html>

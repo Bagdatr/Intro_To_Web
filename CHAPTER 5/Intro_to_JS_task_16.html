@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+
+            let sixtyMinutes = 60;
+            let userInput = prompt("Enter number of minutes");
+            let division = userInput / sixtyMinutes;
+            let divisionToString = division.toString();
+            let result = divisionToString.split('.');
+            let hours = result[0];
+            let minutes = userInput % sixtyMinutes;
+            if(minutes > 0) alert(`${hours} HOURS and ${minutes} MINUTES`);
+            else alert(`ONLY ${hours} HOURS`);
+
+        </script>
+    </body>
+</html>

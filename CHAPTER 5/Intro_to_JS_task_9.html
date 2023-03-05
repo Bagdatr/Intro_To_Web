@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+        
+        alert("INSERT YOUR AMOUNT IN KZT:"+"\n"+"1-CONVERT TO USD"+"\n"+"2- CONVERT TO EUR"+"\n"+"3- CONVERT TO GBP");
+        let amountAndNumberOfCurrency = prompt("Please input amount of money you want to exchange and choose currency by number (1-3)");
+        let amountAndCurrency = amountAndNumberOfCurrency.split(' ');
+        let amount = amountAndCurrency[0];
+        let currency = amountAndCurrency[1];
+
+        let USD = 380;
+        let EUR = 430;
+        let GBP = 480;
+        
+        if(currency==1){
+            alert(amount+" KZT = "+(amount / USD).toFixed(2) +" USD");
+        }else if(currency==2){
+            alert(amount+" KZT = "+(amount / EUR).toFixed(2) +" EUR");
+        }else if(currency==3){
+            alert(amount+" KZT = "+(amount / GBP).toFixed(2) +" GBP");
+        }else{
+            alert("Error. Please choose proper currency (1-3)");
+        }
+
+
+        </script>
+    </body>
+</html>
