@@ -1,0 +1,24 @@
+.mainWindow{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.authorizationForm{
+    width: 500px;
+    /* height: 20px; */
+    border: 1px solid;
+    border-color: black;
+    /* align-self: center; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.loginAndPasswordTitle{
+    width: 30%;
+}
+.loginAndPasswordInput{
+    width: 69%;
+    /* align-items: center;
+    justify-content: center; */
+}
+.button{
+}
