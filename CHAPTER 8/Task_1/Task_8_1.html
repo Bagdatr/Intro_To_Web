@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>My_first_authorization_page</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="mainWindow">
-            <div class="authorizationForm">
-                <div class="loginAndPasswordTitle">
-                    <p>LOGIN:</p>
-                    <p>PASSWORD:</p>
+
+<head>
+    <title>My_first_authorization_page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainWindow">
+        <div class="authorizationForm" id="authorizationForm">
+            <div class="innerform" id="innerform">
+                <div>
+                    LOGIN: <input id="login" type="text" placeholder="Enter login">
                 </div>
-                <div class="loginAndPasswordInput">
-                    <p><input id="login" type="text" placeholder="Enter login" style="width:250px"></p>
-                    <p><input id="password" type="text" placeholder="Enter password" style="width:250px"></p>
+                <p></p>
+                <div>
+                    PASSWORD: <input id="password" type="password" placeholder="Enter password">
                 </div>
-                <button id="button" class="button">SIGN IN</button>
+
+                <p id="result"></p>
             </div>
+            <button id="button">SIGN IN</button>
         </div>
-        <script src="Task_8_1.js">
-        </script>
-    </body>
+    </div>
+    <script src="Task_8_1.js"></script>
+</body>
+
 </html>

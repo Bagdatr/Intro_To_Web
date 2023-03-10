@@ -1,24 +1,26 @@
-.mainWindow{
+.mainWindow {
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    align-items: center;
+
 }
-.authorizationForm{
-    width: 500px;
-    /* height: 20px; */
+
+.authorizationForm {
+    width: 40%;
     border: 1px solid;
-    border-color: black;
-    /* align-self: center; */
-    display: flex;
-    flex-wrap: wrap;
+    border-radius: 10px;
+    margin-top: 15px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    position: relative */
 }
-.loginAndPasswordTitle{
-    width: 30%;
-}
-.loginAndPasswordInput{
-    width: 69%;
-    /* align-items: center;
-    justify-content: center; */
-}
-.button{
+
+.innerform {
+    margin-left: 10px;
+    margin-top: 10px;
+    /* background-color: aqua; */
+    /* width: 80%; */
+    /* display: flex; */
+    /* justify-content: space-around; */
 }

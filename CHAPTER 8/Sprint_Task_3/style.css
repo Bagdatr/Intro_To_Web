@@ -7,7 +7,7 @@
     flex-wrap: wrap;
 }
 .mainFrame{
-    width: 1000px;
+    width: 60%;
     height: 100px;
     border: 1px solid;
     display: flex;
