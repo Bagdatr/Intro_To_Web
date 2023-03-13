@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" id="mainSheet">
+        <table class="table" id="myTable">
+            <tbody>
+                <tr>
+                    <td id="cardNumb">CARD:</td>
+                    <td><input type="number" id="cardNumberInputOne"></td>
+                    <td><input type="number" id="cardNumberInputTwo"></td>
+                    <td><input type="number" id="cardNumberInputThree"></td>
+                    <td><input type="number" id="cardNumberInputFour"></td>
+                </tr>
+                <tr>
+                    <td>NAME SURNAME:</td>
+                    <td colspan="4"><input type="text" id="cardHolderName"></td>
+                </tr>
+                <tr>
+                    <td>CVV:</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="magicButton" onclick="CheckClient()">COMPLETE</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

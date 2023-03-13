@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter.com</title>
+</head>
+<body>
+    <div class="main">
+        <div class="topPanel">
+            <div class="topPanelWithLogo">TWITTER</div>
+            <div class="topPanelWithMenu">
+                <a href="" class="linkTopButton">Tweets</a>
+                <a href="" class="linkTopButton">Login</a>
+                <a href="index.html" class="linkTopButton">Register</a>
+            </div>
+        </div>
+        <div class="mainWindow">
+            <div class="mainPanel">
+                <div>
+                    <p>EMAIL:</p>
+                    <p class="personData" id="userPersonalEmail"></p>
+                </div>
+                <div>
+                    <p>FULL NAME:</p>
+                    <p class="personData" id="userPersonalName"></p>
+                </div>
+                <div>
+                    <p>COUNTRY:</p>
+                    <p class="personData" id="userPersonalCountry"></p>
+                </div>
+                <div>
+                    <p>BIRTHDATE:</p>
+                    <p class="personData" id="userPersonalBirthdate"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let json = localStorage.getItem("welcome")
+        let data = JSON.parse(json)
+        // alert(data)
+        userPersonalEmail.innerHTML = data.email
+        userPersonalName.innerHTML = data.fullName
+        userPersonalCountry.innerHTML = data.country
+        userPersonalBirthdate.innerHTML = data.birthdate
+    </script>
+</body>
+</html>

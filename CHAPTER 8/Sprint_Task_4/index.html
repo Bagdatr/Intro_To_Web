@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter.com</title>
+</head>
+<body>
+    <div class="main">
+        <div class="topPanel">
+            <div class="topPanelWithLogo">TWITTER</div>
+            <div class="topPanelWithMenu">
+                <a href="" class="linkTopButton">Tweets</a>
+                <a href="" class="linkTopButton">Login</a>
+                <a href="" class="linkTopButton">Register</a>
+            </div>
+        </div>
+        <div class="mainWindow">
+            <div class="mainPanel">
+                <div>
+                    <p>EMAIL:</p>
+                    <input class="inputting" type="text" id="emailInput">
+                </div>
+                <div>
+                    <p>PASSWORD:</p>
+                    <input class="inputting" type="text" id="passwordInput">
+                </div>
+                <div>
+                    <p>FULL NAME:</p>
+                    <input class="inputting" type="text" id="fullNameInput">
+                </div>
+                <div>
+                    <p>COUNTRY:</p>
+                    <select class="inputtingSelect" name="" id="countrySelect">
+                        <option value="KZ">Kazakhstan</option>
+                        <option value="RU">Russia</option>
+                        <option value="UZ">Uzbekistan</option>
+                        <option value="KG">Kyrgyzstan</option>
+                    </select>
+                </div>
+                <div>
+                    <p>BIRTHDATE:</p>
+                    <input class="inputting" type="date" id="birthdateSelect">
+                </div>
+                <br>
+                <button class="magicButton" onclick="Register()">REGISTER</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

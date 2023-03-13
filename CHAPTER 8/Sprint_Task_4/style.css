@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    
+}
+
+.topPanel {
+    height: 50px;
+    background-color: #2c8391;
+    display: flex;
+    
+}
+.topPanelWithLogo{
+    width: 80%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+.topPanelWithMenu{
+    width: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.linkTopButton{
+    margin-right: 10%;
+    text-decoration: none;
+    color: #a1c7ce;
+    font-weight: 600;
+    font-size: 12px;
+}
+.mainWindow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainPanel{
+    /* background-color: aqua; */
+    width: 30%;
+}
+.inputting{
+    width: 95%;
+    height: 25px;
+    font-size: 15px;
+}
+.inputtingSelect{
+    width: 97%;
+    height: 35px;
+    font-size: 15px;
+}
+.magicButton{
+    background-color: #00008b;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 30%;
+}
+.personData{
+    font-weight: 600;
+}
